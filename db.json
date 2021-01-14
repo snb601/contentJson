@@ -1,0 +1,1160 @@
+{
+    "packet": {
+      "version": "1.0",
+      "type": "response",
+      "user_id": 123,
+      "resp": [
+        {
+          "cmd_id": 10,
+          "resp_data": {
+            "cmd_string": "CMD_RSP_GET_CERT",
+            "status": "SUCCESS",
+            "cert_type": "DER",
+            "parent_cert_id": "0",
+            "stream": [ 48, 130, 1, 246, 48, 130, 1, 156, 160, 3, 2, 1, 2, 2, 2, 79, 0, 48, 10, 6, 8, 42, 134, 72, 206, 61, 4, 3, 2, 48, 
+                77, 49, 11, 48, 9, 6, 3, 85, 4, 6, 19, 2, 85, 83, 49, 31, 48, 29, 6, 3, 85, 4, 10, 12, 22, 83, 105, 108, 118, 101, 
+                114, 32, 83, 112, 114, 105, 110, 103, 32, 78, 101, 116, 119, 111, 114, 107, 115, 49, 29, 48, 27, 6, 3, 85, 4, 3, 12, 20, 83, 83, 
+                78, 32, 82, 111, 111, 116, 32, 67, 101, 114, 116, 105, 102, 105, 99, 97, 116, 101, 48, 30, 23, 13, 49, 51, 48, 57, 50, 52, 49, 57, 
+                52, 53, 50, 57, 90, 23, 13, 50, 51, 49, 48, 51, 49, 49, 57, 52, 53, 50, 57, 90, 48, 67, 49, 11, 48, 9, 6, 3, 85, 4,
+                6, 19, 2, 85, 83, 49, 12, 48, 10, 6, 3, 85, 4, 10, 19, 3, 83, 83, 78, 49, 14, 48, 12, 6, 3, 85, 4, 11, 19, 5, 
+                115, 119, 101, 110, 103, 49, 22, 48, 20, 6, 3, 85, 4, 3, 19, 13, 79, 112, 101, 114, 97, 116, 111, 114, 32, 82, 111, 111, 116, 48, 
+                89, 48, 19, 6, 7, 42, 134, 72, 206, 61, 2, 1, 6, 8, 42, 134, 72, 206, 61, 3, 1, 7, 3, 66, 0, 4, 175, 16, 149, 81, 
+                183, 165, 79, 231, 155, 148, 113, 230, 163, 143, 252, 39, 10, 179, 161, 17, 248, 18, 205, 17, 52, 109, 223, 64, 193, 42,  206, 117, 35, 227, 
+                140, 157, 55, 214, 16,207, 77, 19, 40, 134, 253, 251, 222, 63, 232, 102, 100, 100, 123, 53, 34, 193, 83, 153, 255, 41, 68, 94, 139, 239, 
+                163, 118, 48, 116, 48, 11, 6, 3, 85, 29, 15, 4, 4, 3, 2, 1, 6, 48, 17, 6, 3, 85, 29, 32, 4, 10, 48, 8, 48, 6, 
+                6, 4, 85, 29, 32, 0, 48, 18, 6, 3, 85, 29, 19, 1, 1, 255, 4, 8, 48, 6, 1, 1, 255, 2, 1, 2, 48, 29, 6, 3, 
+                85, 29, 14, 4, 22, 4, 20, 85, 68, 4, 173, 90, 193, 90, 126, 190, 195, 106, 227, 70, 76, 27, 152, 65, 148, 193, 249, 48, 31, 6, 
+                3, 85, 29, 35, 4, 24, 48, 22, 128, 20, 13, 204, 133, 111, 217, 32, 56, 48, 17, 96, 170, 179, 137, 139, 47, 47, 22, 4, 182, 162, 
+                48, 10, 6, 8, 42, 134, 72, 206, 61, 4, 3, 2, 3, 72, 0, 48, 69, 2, 33, 0, 245, 62, 235, 96, 16, 146, 2, 14, 89, 105, 
+                211, 141, 55, 159, 123, 95, 154, 98, 26, 112, 160, 204, 248, 83, 244, 136, 126, 10, 55, 150, 128, 137, 2, 32, 4, 168, 221, 79, 27, 26, 
+                88, 164, 215, 173, 25, 6, 188, 116, 243, 31, 174, 189, 222, 250, 176, 37, 203, 175, 11, 55, 107, 183, 89, 98, 210, 102
+            ],
+            "cert_data": [{
+                "field_id": "1",
+                "parent_field": "0",
+                "offset": "0",
+                "TL_width": "4",
+                "V_width": "502",
+                "Tag": "48",
+                "simple": false,
+                "depth": "1",
+                "TagName": "SEQUENCE",
+                "children": [
+                  {
+                    "field_id": "2",
+                    "parent_field": "1",
+                    "offset": "4",
+                    "TL_width": "4",
+                    "V_width": "412",
+                    "Tag": "48",
+                    "depth": "2",
+                    "TagName": "SEQUENCE",
+                    "simple": false,
+                    "children": [
+                      {
+                        "field_id": "3",
+                        "parent_field": "2",
+                        "offset": "8",
+                        "TL_width": "2",
+                        "V_width": "3",
+                        "Tag": "160",
+                        "depth": "3",
+                        "TagName": [
+                          "CONTEXT_SPECIFIC[0]"
+                        ],
+                        "simple": false,
+                        "children": [
+                          {
+                            "field_id": "4",
+                            "parent_field": "3",
+                            "offset": "10",
+                            "TL_width": "2",
+                            "V_width": "1",
+                            "Tag": "2",
+                            "depth": "4",
+                            "TagName": "INTEGER",
+                            "simple": true,
+                            "data": {
+                              "type": "VERSION",
+                              "number": "2"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "field_id": "5",
+                        "parent_field": "3",
+                        "offset": "13",
+                        "TL_width": "2",
+                        "V_width": "2",
+                        "Tag": "2",
+                        "depth": "3",
+                        "TagName": "INTEGER",
+                        "simple": true,
+                        "data": {
+                          "type": "SERIAL_NO",
+                          "number": "20224"
+                        }
+                      },
+                      {
+                        "field_id": "6",
+                        "parent_field": "3",
+                        "offset": "17",
+                        "TL_width": "2",
+                        "V_width": "10",
+                        "Tag": "48",
+                        "depth": "3",
+                        "TagName": "SEQUENCE",
+                        "simple": false,
+                        "children": [
+                          {
+                            "field_id": "7",
+                            "parent_field": "6",
+                            "offset": "19",
+                            "TL_width": "2",
+                            "V_width": "8",
+                            "Tag": "6",
+                            "depth": "4",
+                            "TagName": "OBJECT_IDENTIFIER",
+                            "simple": true,
+                            "data": {
+                              "oid": "1.2.840.10045.4.3.2",
+                              "oid_name": "ecdsaWithSHA256"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "field_id": "8",
+                        "parent_field": "3",
+                        "offset": "29",
+                        "TL_width": "2",
+                        "V_width": "77",
+                        "Tag": "48",
+                        "depth": "3",
+                        "TagName": "SEQUENCE",
+                        "simple": false,
+                        "children": [
+                          {
+                            "field_id": "9",
+                            "parent_field": "8",
+                            "offset": "49",
+                            "TL_width": "2",
+                            "V_width": "11",
+                            "Tag": "31",
+                            "depth": "4",
+                            "TagName": "SET",
+                            "simple": false,
+                            "children": [
+                              {
+                                "field_id": "10",
+                                "parent_field": "9",
+                                "offset": "33",
+                                "TL_width": "2",
+                                "V_width": "9",
+                                "Tag": "48",
+                                "depth": "5",
+                                "TagName": "SEQUENCE",
+                                "simple": false,
+                                "children": [
+                                  {
+                                    "field_id": "11",
+                                    "parent_field": "10",
+                                    "offset": "35",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "6",
+                                    "depth": "6",
+                                    "TagName": "OBJECT_IDENTIFIER",
+                                    "simple": true,
+                                    "data": {
+                                      "oid": "2.5.4.6",
+                                      "oid_name": "countryName"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "12",
+                                    "parent_field": "10",
+                                    "offset": "40",
+                                    "TL_width": "2",
+                                    "V_width": "2",
+                                    "Tag": "19",
+                                    "depth": "6",
+                                    "TagName": "PrintableString",
+                                    "simple": true,
+                                    "data": {
+                                      "string": "US"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "field_id": "13",
+                            "parent_field": "9",
+                            "offset": "44",
+                            "TL_width": "2",
+                            "V_width": "31",
+                            "Tag": "49",
+                            "depth": "4",
+                            "TagName": "SET",
+                            "simple": false,
+                            "children": [
+                              {
+                                "field_id": "14",
+                                "parent_field": "13",
+                                "offset": "46",
+                                "TL_width": "2",
+                                "V_width": "29",
+                                "Tag": "48",
+                                "depth": "5",
+                                "TagName": "SEQUENCE",
+                                "simple": false,
+                                "children": [
+                                  {
+                                    "field_id": "15",
+                                    "parent_field": "14",
+                                    "offset": "48",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "6",
+                                    "depth": "6",
+                                    "TagName": "OBJECT_IDENTIFIER",
+                                    "simple": true,
+                                    "data": {
+                                      "oid": "2.5.4.10",
+                                      "oid_name": "organizationName"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "16",
+                                    "parent_field": "14",
+                                    "offset": "53",
+                                    "TL_width": "2",
+                                    "V_width": "22",
+                                    "Tag": "12",
+                                    "depth": "6",
+                                    "TagName": "UTF8String",
+                                    "simple": true,
+                                    "data": {
+                                      "string": "Silver Spring Networks"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "field_id": "17",
+                            "parent_field": "9",
+                            "offset": "77",
+                            "TL_width": "2",
+                            "V_width": "29",
+                            "Tag": "49",
+                            "depth": "4",
+                            "TagName": "SET",
+                            "simple": false,
+                            "children": [
+                              {
+                                "field_id": "18",
+                                "parent_field": "17",
+                                "offset": "79",
+                                "TL_width": "2",
+                                "V_width": "27",
+                                "Tag": "48",
+                                "depth": "5",
+                                "TagName": "SEQUENCE",
+                                "simple": false,
+                                "children": [
+                                  {
+                                    "field_id": "19",
+                                    "parent_field": "18",
+                                    "offset": "81",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "6",
+                                    "depth": "6",
+                                    "TagName": "OBJECT_IDENTIFIER",
+                                    "simple": true,
+                                    "data": {
+                                      "oid": "2.5.4.3",
+                                      "oid_name": "commonName"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "20",
+                                    "parent_field": "18",
+                                    "offset": "86",
+                                    "TL_width": "2",
+                                    "V_width": "20",
+                                    "Tag": "12",
+                                    "depth": "6",
+                                    "TagName": "UTF8String",
+                                    "simple": true,
+                                    "data": {
+                                      "string": "SSN Root Certificate"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "field_id": "21",
+                        "parent_field": "3",
+                        "offset": "108",
+                        "TL_width": "2",
+                        "V_width": "30",
+                        "Tag": "48",
+                        "depth": "3",
+                        "TagName": "SEQUENCE",
+                        "simple": false,
+                        "children": [
+                          {
+                            "field_id": "22",
+                            "parent_field": "21",
+                            "offset": "110",
+                            "TL_width": "2",
+                            "V_width": "13",
+                            "Tag": "23",
+                            "depth": "4",
+                            "TagName": "UTCTime",
+                            "simple": true,
+                            "data": {
+                              "type": "NOT_BEFORE",
+                              "date": "2013-09-24",
+                              "time": "19:45:29",
+                              "time_format": "UTC"
+                            }
+                          },
+                          {
+                            "field_id": "23",
+                            "parent_field": "21",
+                            "offset": "125",
+                            "TL_width": "2",
+                            "V_width": "13",
+                            "Tag": "23",
+                            "depth": "4",
+                            "TagName": "UTCTime",
+                            "simple": true,
+                            "data": {
+                              "type": "NOT_AFTER",
+                              "date": "2023-10-31",
+                              "time": "19:45:29",
+                              "time_format": "UTC"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "field_id": "24",
+                        "parent_field": "3",
+                        "offset": "140",
+                        "TL_width": "2",
+                        "V_width": "67",
+                        "Tag": "48",
+                        "depth": "3",
+                        "TagName": "SEQUENCE",
+                        "simple": false,
+                        "children": [
+                          {
+                            "field_id": "25",
+                            "parent_field": "24",
+                            "offset": "142",
+                            "TL_width": "2",
+                            "V_width": "11",
+                            "Tag": "49",
+                            "depth": "4",
+                            "TagName": "SET",
+                            "simple": false,
+                            "children": [
+                              {
+                                "field_id": "26",
+                                "parent_field": "27",
+                                "offset": "144",
+                                "TL_width": "2",
+                                "V_width": "9",
+                                "Tag": "48",
+                                "depth": "5",
+                                "TagName": "SEQUENCE",
+                                "simple": false,
+                                "children": [
+                                  {
+                                    "field_id": "27",
+                                    "parent_field": "26",
+                                    "offset": "146",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "6",
+                                    "depth": "6",
+                                    "TagName": "OBJECT_IDENTIFIER",
+                                    "simple": true,
+                                    "data": {
+                                      "oid": "2.5.4.6",
+                                      "oid_name": "countryName"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "28",
+                                    "parent_field": "26",
+                                    "offset": "151",
+                                    "TL_width": "2",
+                                    "V_width": "2",
+                                    "Tag": "19",
+                                    "depth": "6",
+                                    "TagName": "PrintableString",
+                                    "simple": true,
+                                    "data": {
+                                      "string": "US"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "field_id": "29",
+                            "parent_field": "25",
+                            "offset": "155",
+                            "TL_width": "2",
+                            "V_width": "12",
+                            "Tag": "49",
+                            "depth": "4",
+                            "TagName": "SET",
+                            "simple": false,
+                            "children": [
+                              {
+                                "field_id": "30",
+                                "parent_field": "29",
+                                "offset": "157",
+                                "TL_width": "2",
+                                "V_width": "10",
+                                "Tag": "48",
+                                "depth": "5",
+                                "TagName": "SEQUENCE",
+                                "simple": false,
+                                "children": [
+                                  {
+                                    "field_id": "31",
+                                    "parent_field": "30",
+                                    "offset": "159",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "6",
+                                    "depth": "6",
+                                    "TagName": "OBJECT_IDENTIFIER",
+                                    "simple": true,
+                                    "data": {
+                                      "oid": "2.5.4.10",
+                                      "oid_name": "organizationName"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "32",
+                                    "parent_field": "30",
+                                    "offset": "164",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "19",
+                                    "depth": "6",
+                                    "TagName": "PrintableString",
+                                    "simple": true,
+                                    "data": {
+                                      "string": "SSN"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "field_id": "33",
+                            "parent_field": "25",
+                            "offset": "169",
+                            "TL_width": "2",
+                            "V_width": "14",
+                            "Tag": "49",
+                            "depth": "4",
+                            "TagName": "SET",
+                            "simple": false,
+                            "children": [
+                              {
+                                "field_id": "34",
+                                "parent_field": "33",
+                                "offset": "171",
+                                "TL_width": "2",
+                                "V_width": "12",
+                                "Tag": "48",
+                                "depth": "5",
+                                "TagName": "SEQUENCE",
+                                "simple": false,
+                                "children": [
+                                  {
+                                    "field_id": "35",
+                                    "parent_field": "34",
+                                    "offset": "173",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "6",
+                                    "depth": "6",
+                                    "TagName": "OBJECT_IDENTIFIER",
+                                    "simple": true,
+                                    "data": {
+                                      "oid": "2.5.4.11",
+                                      "oid_name": "organizationalUnitName"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "36",
+                                    "parent_field": "34",
+                                    "offset": "178",
+                                    "TL_width": "2",
+                                    "V_width": "5",
+                                    "Tag": "19",
+                                    "depth": "6",
+                                    "TagName": "PrintableString",
+                                    "simple": true,
+                                    "data": {
+                                      "string": "sweng"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "field_id": "37",
+                            "parent_field": "25",
+                            "offset": "185",
+                            "TL_width": "2",
+                            "V_width": "22",
+                            "Tag": "49",
+                            "depth": "4",
+                            "TagName": "SET",
+                            "simple": false,
+                            "children": [
+                              {
+                                "field_id": "38",
+                                "parent_field": "37",
+                                "offset": "187",
+                                "TL_width": "2",
+                                "V_width": "20",
+                                "Tag": "48",
+                                "depth": "5",
+                                "TagName": "SEQUENCE",
+                                "simple": false,
+                                "children": [
+                                  {
+                                    "field_id": "39",
+                                    "parent_field": "38",
+                                    "offset": "189",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "6",
+                                    "depth": "6",
+                                    "TagName": "OBJECT_IDENTIFIER",
+                                    "simple": true,
+                                    "data": {
+                                      "oid": "2.5.4.3",
+                                      "oid_name": "commonName"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "40",
+                                    "parent_field": "38",
+                                    "offset": "194",
+                                    "TL_width": "2",
+                                    "V_width": "13",
+                                    "Tag": "19",
+                                    "depth": "6",
+                                    "TagName": "PrintableString",
+                                    "simple": true,
+                                    "data": {
+                                      "string": "Operator Root"
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "field_id": "41",
+                        "parent_field": "3",
+                        "offset": "209",
+                        "TL_width": "2",
+                        "V_width": "89",
+                        "Tag": "48",
+                        "depth": "3",
+                        "TagName": "SEQUENCE",
+                        "simple": false,
+                        "children": [
+                          {
+                            "field_id": "42",
+                            "parent_field": "41",
+                            "offset": "211",
+                            "TL_width": "2",
+                            "V_width": "19",
+                            "Tag": "48",
+                            "depth": "4",
+                            "TagName": "SEQUENCE",
+                            "simple": false,
+                            "children": [
+                              {
+                                "field_id": "43",
+                                "parent_field": "42",
+                                "offset": "213",
+                                "TL_width": "2",
+                                "V_width": "7",
+                                "Tag": "6",
+                                "depth": "5",
+                                "TagName": "OBJECT_IDENTIFIER",
+                                "simple": true,
+                                "data": {
+                                  "oid": "1.2.840.10045.2.1",
+                                  "oid_name": "ecPublicKey"
+                                }
+                              },
+                              {
+                                "field_id": "44",
+                                "parent_field": "42",
+                                "offset": "222",
+                                "TL_width": "2",
+                                "V_width": "8",
+                                "Tag": "6",
+                                "depth": "5",
+                                "TagName": "OBJECT_IDENTIFIER",
+                                "simple": true,
+                                "data": {
+                                  "oid": "1.2.840.10045.3.1.7",
+                                  "oid_name": "prime256v1"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "field_id": "45",
+                            "parent_field": "41",
+                            "offset": "232",
+                            "TL_width": "2",
+                            "V_width": "66",
+                            "Tag": "3",
+                            "depth": "4",
+                            "TagName": "BIT_STRING",
+                            "simple": true,
+                            "data": {
+                              "num_bits": "512",
+                              "stream": "0000010010101111000100001001010101010001101101111010010101001111111001111001101110010100011100011110011010100011100011111111110000100111000010101011001110100001000100011111100000010010110011010001000100110100011011011101111101000000110000010010101011001110011101010010001111100011100011001001110100110111110101100001000011001111010011010001001100101000100001101111110111111011110111100011111111101000011001100110010001100100011110110011010100100010110000010101001110011001111111110010100101000100010111101000101111101111"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "field_id": "46",
+                        "parent_field": "3",
+                        "offset": "300",
+                        "TL_width": "2",
+                        "V_width": "118",
+                        "Tag": "163",
+                        "depth": "3",
+                        "TagName": [
+                          "CONTEXT_SPECIFIC[0]"
+                        ],
+                        "simple": false,
+                        "children": [
+                          {
+                            "field_id": "47",
+                            "parent_field": "46",
+                            "offset": "302",
+                            "TL_width": "2",
+                            "V_width": "116",
+                            "Tag": "48",
+                            "depth": "4",
+                            "TagName": "SEQUENCE",
+                            "simple": false,
+                            "children": [
+                              {
+                                "field_id": "48",
+                                "parent_field": "47",
+                                "offset": "304",
+                                "TL_width": "2",
+                                "V_width": "114",
+                                "Tag": "48",
+                                "depth": "5",
+                                "TagName": "SEQUENCE",
+                                "simple": false,
+                                "children": [
+                                  {
+                                    "field_id": "49",
+                                    "parent_field": "48",
+                                    "offset": "306",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "6",
+                                    "depth": "6",
+                                    "TagName": "OBJECT_IDENTIFIER",
+                                    "simple": true,
+                                    "data": {
+                                      "oid": "2.5.29.15",
+                                      "oid_name": "keyUsage"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "50",
+                                    "parent_field": "48",
+                                    "offset": "311",
+                                    "TL_width": "2",
+                                    "V_width": "4",
+                                    "Tag": "4",
+                                    "depth": "6",
+                                    "TagName": "OCTET_STRING",
+                                    "simple": true,
+                                    "data": {
+                                      "num_bytes": "4",
+                                      "stream": "03020106"
+                                    },
+                                    "children": [
+                                      {
+                                        "field_id": "51",
+                                        "parent_field": "50",
+                                        "offset": "313",
+                                        "TL_width": "2",
+                                        "V_width": "2",
+                                        "Tag": "3",
+                                        "depth": "7",
+                                        "TagName": "BIT_STRING",
+                                        "simple": true,
+                                        "data": {
+                                          "num_bits": "7",
+                                          "stream": "0000011"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "field_id": "52",
+                                "parent_field": "47",
+                                "offset": "317",
+                                "TL_width": "2",
+                                "V_width": "17",
+                                "Tag": "48",
+                                "depth": "5",
+                                "TagName": "SEQUENCE",
+                                "simple": false,
+                                "children": [
+                                  {
+                                    "field_id": "53",
+                                    "parent_field": "52",
+                                    "offset": "319",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "6",
+                                    "depth": "6",
+                                    "TagName": "OBJECT_IDENTIFIER",
+                                    "simple": true,
+                                    "data": {
+                                      "oid": "2.5.29.32",
+                                      "oid_name": "certificatePolicies"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "54",
+                                    "parent_field": "52",
+                                    "offset": "324",
+                                    "TL_width": "2",
+                                    "V_width": "10",
+                                    "Tag": "4",
+                                    "depth": "6",
+                                    "TagName": "OCTET_STRING",
+                                    "simple": true,
+                                    "data": {
+                                      "num_bytes": "10",
+                                      "stream": "300830060604551D2000"
+                                    },
+                                    "children": [
+                                      {
+                                        "field_id": "55",
+                                        "parent_field": "54",
+                                        "offset": "326",
+                                        "TL_width": "2",
+                                        "V_width": "8",
+                                        "Tag": "48",
+                                        "depth": "7",
+                                        "TagName": "SEQUENCE",
+                                        "simple": false,
+                                        "children": [
+                                          {
+                                            "field_id": "56",
+                                            "parent_field": "55",
+                                            "offset": "328",
+                                            "TL_width": "2",
+                                            "V_width": "6",
+                                            "Tag": "48",
+                                            "depth": "8",
+                                            "TagName": "SEQUENCE",
+                                            "simple": false
+                                          },
+                                          {
+                                            "field_id": "57",
+                                            "parent_field": "55",
+                                            "offset": "330",
+                                            "TL_width": "2",
+                                            "V_width": "4",
+                                            "Tag": "6",
+                                            "depth": "9",
+                                            "TagName": "OBJECT_IDENTIFIER",
+                                            "simple": true,
+                                            "data": {
+                                              "oid": "2.5.29.32.0",
+                                              "oid_name": "anyPolicy"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "field_id": "58",
+                                "parent_field": "52",
+                                "offset": "336",
+                                "TL_width": "2",
+                                "V_width": "18",
+                                "Tag": "48",
+                                "depth": "5",
+                                "TagName": "SEQUENCE",
+                                "simple": false,
+                                "children": [
+                                  {
+                                    "field_id": "59",
+                                    "parent_field": "58",
+                                    "offset": "338",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "6",
+                                    "depth": "6",
+                                    "TagName": "OBJECT_IDENTIFIER",
+                                    "simple": true,
+                                    "data": {
+                                      "oid": "2.5.29.19",
+                                      "oid_name": "basicConstraints"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "60",
+                                    "parent_field": "58",
+                                    "offset": "343",
+                                    "TL_width": "2",
+                                    "V_width": "1",
+                                    "Tag": "1",
+                                    "depth": "6",
+                                    "TagName": "BOOLEAN",
+                                    "simple": true,
+                                    "data": {
+                                      "value": "true"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "61",
+                                    "parent_field": "58",
+                                    "offset": "346",
+                                    "TL_width": "2",
+                                    "V_width": "8",
+                                    "Tag": "4",
+                                    "depth": "6",
+                                    "TagName": "OCTET_STRING",
+                                    "simple": true,
+                                    "data": {
+                                      "num_bytes": "8",
+                                      "stream": "30060101FF020102"
+                                    },
+                                    "children": [
+                                      {
+                                        "field_id": "62",
+                                        "parent_field": "61",
+                                        "offset": "348",
+                                        "TL_width": "2",
+                                        "V_width": "3",
+                                        "Tag": "48",
+                                        "depth": "7",
+                                        "TagName": "SEQUENCE",
+                                        "simple": false,
+                                        "children": [
+                                          {
+                                            "field_id": "63",
+                                            "parent_field": "62",
+                                            "offset": "350",
+                                            "TL_width": "2",
+                                            "V_width": "1",
+                                            "Tag": "1",
+                                            "depth": "8",
+                                            "TagName": "BOOLEAN",
+                                            "simple": true,
+                                            "data": {
+                                              "value": "true"
+                                            }
+                                          },
+                                          {
+                                            "field_id": "64",
+                                            "parent_field": "62",
+                                            "offset": "353",
+                                            "TL_width": "2",
+                                            "V_width": "1",
+                                            "Tag": "2",
+                                            "depth": "8",
+                                            "TagName": "INTEGER",
+                                            "simple": true,
+                                            "data": {
+                                              "type": "",
+                                              "number": "2"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "field_id": "65",
+                                "parent_field": "52",
+                                "offset": "356",
+                                "TL_width": "2",
+                                "V_width": "29",
+                                "Tag": "48",
+                                "depth": "5",
+                                "TagName": "SEQUENCE",
+                                "simple": false,
+                                "children": [
+                                  {
+                                    "field_id": "66",
+                                    "parent_field": "67",
+                                    "offset": "358",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "6",
+                                    "depth": "6",
+                                    "TagName": "OBJECT_IDENTIFIER",
+                                    "simple": true,
+                                    "data": {
+                                      "oid": "2.5.29.14",
+                                      "oid_name": "subjectKeyIdentifier"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "67",
+                                    "parent_field": "65",
+                                    "offset": "363",
+                                    "TL_width": "2",
+                                    "V_width": "22",
+                                    "Tag": "4",
+                                    "depth": "6",
+                                    "TagName": "OCTET_STRING",
+                                    "simple": true,
+                                    "data": {
+                                      "num_bytes": "8",
+                                      "stream": "554404AD5AC15A7EBEC36AE3464C1B984194C1F9"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "68",
+                                    "parent_field": "65",
+                                    "offset": "365",
+                                    "TL_width": "2",
+                                    "V_width": "20",
+                                    "Tag": "4",
+                                    "depth": "7",
+                                    "TagName": "OCTET_STRING",
+                                    "simple": true,
+                                    "data": {
+                                      "num_bytes": "20",
+                                      "stream": "554404AD5AC15A7EBEC36AE3464C1B984194C1F9"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "field_id": "69",
+                                "parent_field": "52",
+                                "offset": "387",
+                                "TL_width": "2",
+                                "V_width": "31",
+                                "Tag": "48",
+                                "depth": "5",
+                                "TagName": "SEQUENCE",
+                                "simple": false,
+                                "children": [
+                                  {
+                                    "field_id": "70",
+                                    "parent_field": "69",
+                                    "offset": "389",
+                                    "TL_width": "2",
+                                    "V_width": "3",
+                                    "Tag": "6",
+                                    "depth": "6",
+                                    "TagName": "OBJECT_IDENTIFIER",
+                                    "simple": true,
+                                    "data": {
+                                      "oid": "2.5.29.35",
+                                      "oid_name": "authorityKeyIdentifier"
+                                    }
+                                  },
+                                  {
+                                    "field_id": "71",
+                                    "parent_field": "69",
+                                    "offset": "394",
+                                    "TL_width": "2",
+                                    "V_width": "24",
+                                    "Tag": "4",
+                                    "depth": "6",
+                                    "TagName": "OCTET_STRING",
+                                    "simple": true,
+                                    "data": {
+                                      "num_bytes": "20",
+                                      "stream": "301680140DCC856FD92038301160AAB3898B2F2F1604B6A2"
+                                    },
+                                    "children": [
+                                      {
+                                        "field_id": "72",
+                                        "parent_field": "71",
+                                        "offset": "396",
+                                        "TL_width": "2",
+                                        "V_width": "22",
+                                        "Tag": "48",
+                                        "depth": "7",
+                                        "TagName": "SEQUENCE",
+                                        "simple": false,
+                                        "children": [
+                                          {
+                                            "field_id": "73",
+                                            "parent_field": "72",
+                                            "offset": "398",
+                                            "TL_width": "2",
+                                            "V_width": "20",
+                                            "Tag": "128",
+                                            "depth": "8",
+                                            "TagName": [
+                                              "CONTEXT_SPECIFIC[0]"
+                                            ],
+                                            "simple": true,
+                                            "data": {
+                                              "num_bytes": "20",
+                                              "stream": "0DCC856FD92038301160AAB3898B2F2F1604B6A2"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "field_id": "74",
+                    "parent_field": "1",
+                    "offset": "420",
+                    "TL_width": "2",
+                    "V_width": "10",
+                    "Tag": "48",
+                    "depth": "2",
+                    "TagName": "SEQUENCE",
+                    "simple": false,
+                    "children": [
+                      {
+                        "field_id": "75",
+                        "parent_field": "74",
+                        "offset": "422",
+                        "TL_width": "2",
+                        "V_width": "8",
+                        "Tag": "6",
+                        "depth": "3",
+                        "TagName": "OBJECT_IDENTIFIER",
+                        "simple": true,
+                        "data": {
+                          "oid": "1.2.840.10045.4.3.2",
+                          "oid_name": "ecdsaWithSHA256"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "field_id": "76",
+                    "parent_field": "1",
+                    "offset": "432",
+                    "TL_width": "2",
+                    "V_width": "72",
+                    "Tag": "3",
+                    "depth": "7",
+                    "TagName": "BIT_STRING",
+                    "simple": true,
+                    "data": {
+                      "num_bits": "568",
+                      "stream": "0011000001000101000000100010000100000000111101010011111011101011011000…"
+                    },
+                    "children": [
+                      {
+                        "field_id": "77",
+                        "parent_field": "76",
+                        "offset": "435",
+                        "TL_width": "2",
+                        "V_width": "69",
+                        "Tag": "48",
+                        "depth": "3",
+                        "TagName": "SEQUENCE",
+                        "simple": false,
+                        "children": [
+                          {
+                            "field_id": "78",
+                            "parent_field": "77",
+                            "offset": "437",
+                            "TL_width": "2",
+                            "V_width": "33",
+                            "Tag": "2",
+                            "depth": "4",
+                            "TagName": "INTEGER",
+                            "simple": true,
+                            "data": {
+                              "type": "BIT_STRING",
+                              "num_bits": "256",
+                              "stream": "1109278169212079616958371127714441024291439579867941612915540453569832…"
+                            }
+                          },
+                          {
+                            "field_id": "79",
+                            "parent_field": "77",
+                            "offset": "472",
+                            "TL_width": "2",
+                            "V_width": "32",
+                            "Tag": "2",
+                            "depth": "4",
+                            "TagName": "INTEGER",
+                            "simple": true,
+                            "data": {
+                            "type": "BIT_STRING",
+                            "num_bits": "251",
+                            "stream": "2107609119848531640315432887372658145143716723243633904726505327995415…"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]}
+            }
+      ]
+    }
+  }
